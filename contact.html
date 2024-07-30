@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes || Contact</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- start of nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="SimpleRecipies">
+          </a>
+          <button type="button" class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </nav>
+        <script src="/js/app.js"></script>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want to get in touch</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, iste rem, nemo excepturi accusamus quos consequuntur maxime quam magnam deserunt dolores vero ab officiis ipsa eos voluptate sequi. Ipsa, adipisci.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor quo ab laborum cum. Accusamus obcaecati quos illum reiciendis. Veniam minima sapiente suscipit corrupti commodi! Quis facilis minus repellendus animi.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque mollitia veniam facere necessitatibus ut est minus aliquid hic placeat velit quae distinctio aperiam magni neque voluptatem atque, reiciendis fuga officia?</p>
+        </article>
+        <article>
+          <form class="form contact-form">
+            <!-- Single form -->
+            <div class="form-row">
+              <label for="name" class="form-label">Your name</label>
+              <input type="text" name="name" id="name" class="form-input">
+            </div>
+            <!-- End of single form -->
+            <!-- Single form -->
+            <div class="form-row">
+              <label for="email" class="form-label">Your e-mail</label>
+              <input type="email" name="email" id="email" class="form-input">
+            </div>
+            <!-- End of single form -->
+            <div class="form-row">
+              <label for="message" class="form-label">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Submit</button>
+          </form>
+        </article>
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">
+          Look at this Awesomesauce!
+        </h5>
+        <!-- Recipes List -->
+      <div class="recipes-list">
+        <!-- Single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="/assets/recipes/recipe-1.jpeg" alt="receta 1" class="img recipe-img">
+          <h5>Carne Asada</h5>
+        </a>
+        <!-- End of Single recipe -->
+        <!-- Single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="/assets/recipes/recipe-2.jpeg" alt="receta 1" class="img recipe-img">
+          <h5>Costilla Griega</h5>
+        </a>
+        <!-- End of Single recipe -->
+        <!-- Single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="/assets/recipes/recipe-3.jpeg" alt="receta 1" class="img recipe-img">
+          <h5>Sopa Vegetal</h5>
+        </a>
+        <!-- End of Single recipe -->
+      </div>
+      <!-- End of Recipes container -->
+      
+    </section>
+    <!-- End of RECIPES List -->
+      </section>
+    </section>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date">2022</span>
+        <span class="footer-logo">
+          SimplyRecipes
+        </span>
+        Built by Mihai
+      </p>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
